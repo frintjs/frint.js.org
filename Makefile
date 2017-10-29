@@ -45,4 +45,4 @@ site-publish-only:
 	(cd ./_site && touch .nojekyll)
 	(cd ./_site && git add .)
 	(cd ./_site && git commit -am 'update site')
-	(cd ./_site && git push git@github.com:frintjs/frint gh-pages --force)
+	(cd ./_site && git push git@github.com:frintjs/frint.js.org gh-pages --force)
