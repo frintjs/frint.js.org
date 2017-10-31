@@ -11,6 +11,14 @@
   a.permalink {
     color: inherit;
   }
+
+  &.column {
+    p a,
+    li a {
+      border-bottom: 1px solid #ccc;
+      font-weight: 600;
+    }
+  }
 }
 
 .contributors {
