@@ -73,7 +73,7 @@ const App = createApp({
 });
 ```
 
-Since we have our own higher-order componentn (HoC) coming from `frint-react`, you are stream the state from your Redux store and also dispatch actions like this:
+Since we have our own higher-order component (HoC) coming from `frint-react`, you stream the state from your Redux store and also dispatch actions like this:
 
 ```js
 import React from 'react';
@@ -132,3 +132,5 @@ export default observe(function (app) {
     .get$();
 })(MyComponent);
 ```
+
+The generation of `state$` stream from a Redux store can also be moved to a provider, so you don't have to do it for every component accessing the state.
