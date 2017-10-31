@@ -19,7 +19,7 @@ sidebarPartial: docsSidebar
 
 Understanding the [basic concepts](../../guides/observables) would really help. We don't expect you to learn everything about [RxJS](http://reactivex.io/rxjs/), but understanding the asynchronous nature of Observables and that they support emitting multiple values over time will help you use FrintJS more efficiently.
 
-To make it easier for beginning we even ship helper functions like `streamProps` from our `frint-react` package.
+To make it easier for beginners, we even ship helper functions like `streamProps` from our `frint-react` package.
 
 ## Is FrintJS a replacement for React?
 
