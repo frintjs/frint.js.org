@@ -1,5 +1,7 @@
 # frint
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/frintjs/frint.js.org.svg)](https://greenkeeper.io/)
+
 [![Build Status](https://img.shields.io/travis/frintjs/frint.js.org/master.svg)](http://travis-ci.org/frintjs/frint.js.org)
 
 > The FrintJS Website
