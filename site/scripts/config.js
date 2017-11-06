@@ -1,7 +1,7 @@
 const path = require('path');
 
 module.exports = {
-  org: 'Travix-International',
+  org: 'frintjs',
   repo: 'frint',
   frintRepoPath: path.join(__dirname, '/../../../frint'),
 
