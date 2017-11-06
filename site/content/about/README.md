@@ -4,9 +4,9 @@ sidebarPartial: aboutSidebar
 processTemplate: true
 ---
 
-# About
+# History
 
-FrintJS was built at [Travix International](https://travix.com) for helping us with building our front-end web applications in a faster, modular and more scalable way.
+FrintJS was originally built at [Travix International](https://travix.com) for building applications in a faster, modular and more scalable way.
 
 ## Contributors
 
@@ -24,4 +24,4 @@ FrintJS was built at [Travix International](https://travix.com) for helping us w
   <% }) %>
 </div>
 
-More on [GitHub](https://github.com/Travix-International/frint/graphs/contributors).
+More on [GitHub](https://github.com/frintjs/frint/graphs/contributors).
