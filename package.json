@@ -16,7 +16,7 @@
   "homepage": "https://github.com/frintjs/frint.js.org#readme",
   "devDependencies": {
     "alex": "^5.0.0",
-    "bulma": "^0.3.2",
+    "bulma": "^0.6.0",
     "js-yaml": "^3.8.2",
     "live-server": "^1.2.0",
     "marked": "^0.3.6",
