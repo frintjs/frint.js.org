@@ -1,6 +1,6 @@
 ---
 title: Higher-Order Components
-sidebarPartial: guidesSidebar
+sidebarPartial: docsSidebar
 ---
 
 # Higher Order Components (HOCs)

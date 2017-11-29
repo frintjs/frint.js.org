@@ -1,6 +1,6 @@
 ---
 title: Asynchronous loading of apps
-sidebarPartial: guidesSidebar
+sidebarPartial: docsSidebar
 ---
 
 # Asynchronous loading of apps
