@@ -1,6 +1,6 @@
 ---
 title: State Management
-sidebarPartial: guidesSidebar
+sidebarPartial: docsSidebar
 ---
 
 # State Management

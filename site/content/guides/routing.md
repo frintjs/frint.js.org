@@ -1,6 +1,6 @@
 ---
 title: Routing
-sidebarPartial: guidesSidebar
+sidebarPartial: docsSidebar
 ---
 
 # Routing

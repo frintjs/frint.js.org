@@ -1,15 +1,15 @@
 ---
 title: Apps
-sidebarPartial: guidesSidebar
+sidebarPartial: docsSidebar
 ---
 
 # Apps
 
 <!-- MarkdownTOC depth=1 autolink=true bracket=round -->
 
-- [What is an App?](#what-is-an-app-)
+- [What is an App?](#what-is-an-app)
 - [Illustration](#illustration)
-- [How to create an App?](#how-to-create-an-app-)
+- [How to create an App?](#how-to-create-an-app)
 - [Root Apps](#root-apps)
 - [Child Apps](#child-apps)
 

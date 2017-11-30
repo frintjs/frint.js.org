@@ -1,6 +1,6 @@
 ---
 title: Guides
-sidebarPartial: guidesSidebar
+sidebarPartial: docsSidebar
 ---
 
 # Guides

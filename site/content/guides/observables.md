@@ -1,6 +1,6 @@
 ---
 title: Observables
-sidebarPartial: guidesSidebar
+sidebarPartial: docsSidebar
 ---
 
 # Observables

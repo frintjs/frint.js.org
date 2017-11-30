@@ -1,6 +1,6 @@
 ---
 title: Hello World
-sidebarPartial: guidesSidebar
+sidebarPartial: docsSidebar
 ---
 
 # Hello World
