@@ -1,6 +1,6 @@
 ---
 title: Regions
-sidebarPartial: guidesSidebar
+sidebarPartial: docsSidebar
 ---
 
 # Regions

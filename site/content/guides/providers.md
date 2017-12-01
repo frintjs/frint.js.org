@@ -1,6 +1,6 @@
 ---
 title: Providers
-sidebarPartial: guidesSidebar
+sidebarPartial: docsSidebar
 ---
 
 # Providers

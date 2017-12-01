@@ -1,6 +1,6 @@
 ---
 title: Code splitting across multiple bundles
-sidebarPartial: guidesSidebar
+sidebarPartial: docsSidebar
 ---
 
 # Code splitting across multiple bundles

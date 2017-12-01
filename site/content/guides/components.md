@@ -1,6 +1,6 @@
 ---
 title: Components
-sidebarPartial: guidesSidebar
+sidebarPartial: docsSidebar
 ---
 
 # Components
