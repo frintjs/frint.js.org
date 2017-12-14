@@ -18,23 +18,23 @@ sidebarPartial: docsSidebar
 
 A component can be any function that renders your view. We use [React](https://facebook.github.io/react/) for creating our Components, and support it officially in frint with the `frint-react` package.
 
+We do have support for [Vue.js](https://github.com/frintjs/frint-vue), [Preact](https://github.com/frintjs/frint-preact) and [React Native](https://github.com/frintjs/frint-react-native) too via additional packages. But we are going to stick to React for this guide.
+
 ## How to create a component?
 
 With React:
 
 ```js
-import React, { Component } from 'react';
+import React from 'react';
 
-class MyComponent extends Component {
-  render() {
-    return <p>Hello World</p>;
-  }
+function MyComponent() {
+  return <p>Hello World</p>;
 }
 ```
 
 ## Assigning your root component to App
 
-We can do it as a provider, with a special reserved key called `component`:
+We can do it as a provider, with a special reserved name called `component`:
 
 ```js
 import { createApp } from 'frint';
