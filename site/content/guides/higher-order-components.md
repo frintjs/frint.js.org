@@ -83,7 +83,6 @@ But we want to inject the App's name to the component, and we could easily do th
 
 ```js
 // components/Root.js
-import { of } from 'rxjs/observable/of';
 import { observe } from 'frint-react';
 
 function MyComponent(props) {
@@ -94,14 +93,40 @@ function MyComponent(props) {
 
 export default observe(function (app) {
   // `app` is our App's instance
-  const props = {
+
+  // return a props-compatible object from here
+  return {
     name: app.getName() // `MyAppNameHere`
   };
-
-  // this function must always return an Observable of props
-  return of(props);
 })(MyComponent);
 ```
+
+Now your stateless component will receive a prop `appName` with the value `MyAppNameHere`.
+
+You can also stream props (that change over time) expressed with an RxJS Observable. Imagine, you want to pass an `interval` prop that updates every second. This can be done as follows:
+
+```js
+import React from 'react';
+import { observe } from 'frint-react';
+import { interval } from 'rxjs/observable/interval';
+import { map } from 'rxjs/operators/map';
+
+function MyComponent(props) {
+  // `props.interval` is an integer that's incrementing every second
+}
+
+export default observe(function (app) {
+  // will keep emitting an object with this structure:
+  // `{ interval: x }` where `x` is an integer
+  const interval$ = interval(1000).pipe(
+    map(x => ({ interval: x }))
+  );
+
+  return interval$;
+})(MyComponent);
+```
+
+Now `MyComponent` will keep re-rendering as it keeps receiving new props object where the `interval` key increments every second.
 
 ### Render
 
