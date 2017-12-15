@@ -22,7 +22,7 @@ By now, we have discussed how:
 * Creating and registering Apps
 * Rendering Root Apps
 
-But we didn't talk about rendering the Apps yet.
+But we didn't talk about rendering the Child Apps yet.
 
 We do that via `Region` component, that is shipped with `frint-react` package.
 

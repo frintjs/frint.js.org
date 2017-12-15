@@ -58,7 +58,7 @@ We use Babel for transpiling ES6/JSX code to browser compatible ES5. Since we al
 
 ## Directory structure
 
-We try to follow a convention for our file structure in Apps. A simple App's tree would look like this:
+We try to follow a convention for our file structure in Apps. A simple App's directory tree would look like this:
 
 ```
 ├── app/
@@ -73,7 +73,7 @@ We try to follow a convention for our file structure in Apps. A simple App's tre
 
 ## App
 
-Creating a new App class is pretty straightforward. You would be required to create a new file at app/index.js with the following content:
+Creating a new App class is pretty straightforward. You would be required to create a new file at `app/index.js` with the following content:
 
 ```js
 // app/index.js
@@ -109,6 +109,54 @@ export default function Root() {
 ```
 
 Basically, you import the `createApp` function from our `frint` package, and define your App by giving it a name, and also the Component that it needs to render.
+
+### Observed component
+
+You can also use our higher-order component `observe` coming from `frint-react` to access the `app` instance, and generate the props for your component (which can live anywhere in the components tree):
+
+```js
+// components/Root.js
+import React from 'react';
+import { observe } from 'frint-react';
+
+function Root(props) {
+  // `props.appName`: name of your App (`MyAppName`)
+  // return JSX
+}
+
+export default observe(function (app) {
+  // `app` is your Root App's instance here
+
+  // the object you return from here,
+  // is going to be the props of your Root component
+  return {
+    appName: app.getName(),
+  };
+})(Root);
+```
+
+You can also stream the props expressed as an Observable, that will keep passing new updated props to your Component:
+
+```js
+import React from 'react';
+import { observe } from 'frint-react';
+import { Observable } from 'rxjs';
+
+function Root(props) {
+  // JSX
+}
+
+export default observe(function (app) {
+  const interval$ = Observable.interval(1000);
+
+  // return an Observable,
+  // that emits a props-compatible object over time
+  return interval$
+    .map(x => ({ interval: x }));
+})(Root);
+```
+
+Now your base component will be receiving an `interval` prop that keeps incrementing every second.
 
 ## Render
 

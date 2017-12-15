@@ -38,7 +38,7 @@ import { createApp } from 'frint';
 const App = createApp({
   name: 'MyApp',
   providers: [
-    // direct values
+    // known values
     { name: 'key', useValue: 'value' },
 
     // values derived from a function
