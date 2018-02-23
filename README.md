@@ -38,6 +38,8 @@ Once the local server is up and running, you can run a separate watcher to refre
 $ make site-watch
 ```
 
+Go to [http://127.0.0.1:6001](http://127.0.0.1:6001) to preview the site.
+
 ### Publishing the site
 
 Builds and deploys the site to GitHub Pages.
