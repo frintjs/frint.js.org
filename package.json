@@ -1,27 +1,43 @@
 {
   "name": "frint.js.org",
-  "description": "The FrintJS Website",
+  "description": "The FrintJs Website",
   "private": true,
-  "scripts": {
-    "alex": "alex ."
+  "version": "1.0.0",
+  "author": "Maryam Saeidi <maryam.saeidi1988@gmail.com>",
+  "dependencies": {
+    "bulma": "^0.3.2",
+    "gatsby": "^1.9.215",
+    "gatsby-link": "^1.6.37",
+    "gatsby-plugin-catch-links": "^1.0.18",
+    "gatsby-plugin-google-analytics": "^1.0.20",
+    "gatsby-plugin-react-helmet": "^2.0.5",
+    "gatsby-plugin-sass": "^1.0.17",
+    "gatsby-remark-autolink-headers": "^1.4.13",
+    "gatsby-remark-prismjs": "^1.2.15",
+    "gatsby-source-filesystem": "^1.5.24",
+    "gatsby-transformer-remark": "^1.7.33",
+    "react-helmet": "^5.2.0"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/frintjs/frint.js.org.git"
   },
+  "keywords": [
+    "frint"
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/frintjs/frint.js.org/issues"
   },
+  "main": "n/a",
   "homepage": "https://github.com/frintjs/frint.js.org#readme",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"src/**/*.js\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "devDependencies": {
-    "alex": "^5.0.0",
-    "bulma": "^0.3.2",
-    "js-yaml": "^3.8.2",
-    "live-server": "^1.2.0",
-    "marked": "^0.3.6",
-    "metalsmith": "^2.3.0",
-    "node-sass": "^4.5.0",
-    "rimraf": "^2.5.2"
+    "prettier": "^1.10.2"
   }
 }
