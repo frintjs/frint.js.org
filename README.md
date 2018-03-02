@@ -31,14 +31,25 @@ $ npm install
 Run:
 
 ```
-$ make site-serve
+$ gatsby develop
 ```
 
-Once the local server is up and running, you can run a separate watcher to refresh the site as you work on the documentation:
+This command will start a hot-reloading development environment accessible at localhost:8000.
+
+
+### Building and testing the site
+
+This command will build the website for generating static HTML and per-route JavaScript code bundles and the result will be on the public folder.
 
 ```
-$ make site-watch
+$ gatsby build
 ```
+Then you can check the generated codes by running:
+
+```
+$ gatsby serve
+```
+
 
 ### Publishing the site
 
