@@ -10,16 +10,7 @@ Issues can be submitted to the monorepo: https://github.com/frintjs/frint/issues
 
 ## Installation
 
-Clone the repository next to the monorepo directory:
-
-```
-├── frint/
-└── frint.js.org/
-```
-
-This setup is only needed for accessing the packages' README files.
-
-Now install the dependencies:
+Clone the repository and install the dependencies:
 
 ```
 $ cd frint.js.org
