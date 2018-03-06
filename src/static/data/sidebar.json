@@ -1,0 +1,165 @@
+[
+  { "menu_label": "Quick start",
+    "menu_items": [{
+      "id": "quick_start",
+      "label": "Hello World",
+      "to": "/guides/hello-world"
+    }]
+  },
+  { "menu_label": "Guides",
+    "menu_items": [{
+      "id": "guides_1",
+      "label": "Apps",
+      "to": "/guides/apps"
+    },{
+      "id": "guides_2",
+      "label": "Providers",
+      "to": "/guides/providers"
+    },{
+      "id": "guides_3",
+      "label": "Components",
+      "to": "/guides/components"
+    },{
+      "id": "guides_4",
+      "label": "Observables",
+      "to": "/guides/observables"
+    },{
+      "id": "guides_5",
+      "label": "Higher-Order Components",
+      "to": "/guides/higher-order-components"
+    },{
+      "id": "guides_6",
+      "label": "Regions",
+      "to": "/guides/regions"
+    }]
+  },
+  { "menu_label": "How TOs",
+    "menu_items": [{
+      "id": "how_tos_1",
+      "label": "State management",
+      "to": "/guides/state-management"
+    },{
+      "id": "how_tos_2",
+      "label": "Routing",
+      "to": "/guides/routing"
+    }]
+  },
+  { "menu_label": "Advanced",
+    "menu_items": [{
+      "id": "advanced_1",
+      "label": "Code splitting",
+      "to": "/guides/code-splitting"
+    },{
+      "id": "advanced_2",
+      "label": "Async loading",
+      "to": "/guides/async-loading"
+    }]
+  },
+  { "menu_label": "Packages",
+    "menu_items": [{
+      "id": "package_1",
+      "label": "frint",
+      "to": "/docs/packages/frint"
+    },{
+      "id": "package_2",
+      "label": "frint-store",
+      "to": "/docs/packages/frint-store"
+    },{
+      "id": "package_3",
+      "label": "frint-data",
+      "to": "/docs/packages/frint-data"
+    },{
+      "id": "package_4",
+      "label": "frint-react",
+      "to": "/docs/packages/frint-react"
+    },{
+      "id": "package_5",
+      "label": "frint-react-server",
+      "to": "/docs/packages/frint-react-server"
+    },{
+      "id": "package_6",
+      "label": "frint-router",
+      "to": "/docs/packages/frint-router"
+    },{
+      "id": "package_7",
+      "label": "frint-router-react",
+      "to": "/docs/packages/frint-router-react"
+    },{
+      "id": "package_8",
+      "label": "frint-cli",
+      "to": "/docs/packages/frint-cli"
+    }]
+  },
+  { "menu_label": "Internal packages",
+    "menu_items": [{
+      "id": "internal_package_1",
+      "label": "frint-config",
+      "to": "/docs/packages/frint-config"
+    },{
+      "id": "internal_package_2",
+      "label": "frint-test-utils",
+      "to": "/docs/packages/frint-test-utils"
+    },{
+      "id": "internal_package_3",
+      "label": "frint-compat",
+      "to": "/docs/packages/frint-compat"
+    }]
+  },
+  { "menu_label": "Developer packages",
+    "menu_items": [{
+      "id": "developer_package_1",
+      "label": "frint-component-utils",
+      "to": "/docs/packages/frint-component-utils"
+    },{
+      "id": "developer_package_2",
+      "label": "frint-component-handlers",
+      "to": "/docs/packages/frint-component-handlers"
+    },{
+      "id": "developer_package_3",
+      "label": "frint-router-component-handlers",
+      "to": "/docs/packages/frint-router-component-handlers"
+    }]
+  },
+  { "menu_label": "Migration",
+    "menu_items": [{
+      "id": "migration_1",
+      "label": "Migrating to v1.x",
+      "to": "/docs/migration/v1"
+    },{
+      "id": "migration_2",
+      "label": "Migrating to v2.x",
+      "to": "/docs/migration/v2"
+    },{
+      "id": "migration_3",
+      "label": "Migrating to v3.x",
+      "to": "/docs/migration/v3"
+    },{
+      "id": "migration_4",
+      "label": "Migrating to v4.x",
+      "to": "/docs/migration/v4"
+    },{
+      "id": "migration_5",
+      "label": "Migrating to v5.x",
+      "to": "/docs/migration/v5"
+    }]
+  },
+  { "menu_label": "Project",
+    "menu_items": [{
+      "id": "project_1",
+      "label": "FAQ",
+      "to": "/docs/faq"
+    },{
+      "id": "project_2",
+      "label": "Changelog",
+      "to": "/docs/changelog"
+    },{
+      "id": "project_3",
+      "label": "Contribution guide",
+      "to": "/docs/contributing/guide"
+    },{
+      "id": "project_4",
+      "label": "Maintainers guide",
+      "to": "/docs/contributing/maintainers"
+    }]
+  }
+]

@@ -21,12 +21,7 @@ class About extends React.Component {
   }
 
   render() {
-    let result = [];
-
     const renderedContributors = this.renderContributors(contributors);
-
-
-    console.log('reult:', result);
 
     return (
       <div className="columns is-multiline contributors">

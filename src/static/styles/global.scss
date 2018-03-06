@@ -23,6 +23,10 @@ nav {
   border-bottom: 1px solid #eee;
 }
 
+.menu-block:not(:last-child) {
+  margin-bottom: 1em;
+}
+
 .main-nav {
   position: fixed;
   width: 100%;

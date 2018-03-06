@@ -1,5 +1,5 @@
 ---
 title: Contribution guide
 importContentFromRoot: CONTRIBUTING.md
-path: "/docs/contributing"
+path: "/docs/contributing/guide"
 ---
