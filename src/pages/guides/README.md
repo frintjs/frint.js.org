@@ -1,6 +1,5 @@
 ---
 title: Guides
-sidebarPartial: docsSidebar
 path: "/guides/"
 ---
 

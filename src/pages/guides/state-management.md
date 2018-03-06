@@ -1,6 +1,5 @@
 ---
 title: State Management
-sidebarPartial: docsSidebar
 path: "/guides/state-management"
 ---
 

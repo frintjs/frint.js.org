@@ -1,6 +1,5 @@
 ---
 title: FAQ
-sidebarPartial: docsSidebar
 path: "/docs/faq"
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: Higher-Order Components
-sidebarPartial: docsSidebar
 path: "/guides/higher-order-components"
 ---
 

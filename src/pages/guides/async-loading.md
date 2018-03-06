@@ -1,6 +1,5 @@
 ---
 title: Asynchronous loading of apps
-sidebarPartial: docsSidebar
 path: "/guides/async-loading"
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: Components
-sidebarPartial: docsSidebar
 path: "/guides/components"
 ---
 

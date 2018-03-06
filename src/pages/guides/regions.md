@@ -1,6 +1,5 @@
 ---
 title: Regions
-sidebarPartial: docsSidebar
 path: "/guides/regions"
 ---
 

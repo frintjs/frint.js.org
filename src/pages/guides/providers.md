@@ -1,6 +1,5 @@
 ---
 title: Providers
-sidebarPartial: docsSidebar
 path: "/guides/providers"
 ---
 

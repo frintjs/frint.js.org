@@ -1,6 +1,5 @@
 ---
 title: Observables
-sidebarPartial: docsSidebar
 path: "/guides/observables"
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: Code splitting across multiple bundles
-sidebarPartial: docsSidebar
 path: "/guides/code-splitting/"
 ---
 

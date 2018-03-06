@@ -1,6 +1,5 @@
 ---
 title: Routing
-sidebarPartial: docsSidebar
 path: "/guides/routing"
 ---
 

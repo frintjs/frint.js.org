@@ -1,6 +1,5 @@
 ---
 title: Hello World
-sidebarPartial: docsSidebar
 path: "/guides/hello-world"
 ---
 

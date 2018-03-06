@@ -1,6 +1,5 @@
 ---
 title: Apps
-sidebarPartial: docsSidebar
 path: "/guides/apps"
 ---
 

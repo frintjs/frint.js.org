@@ -1,6 +1,5 @@
 ---
 title: About
-sidebarPartial: aboutSidebar
 processTemplate: true
 path: '/about1'
 ---
