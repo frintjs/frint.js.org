@@ -4,20 +4,7 @@ import Helmet from "react-helmet"
 class PackageTemplate extends React.Component {
   constructor() {
     super();
-    // this.state = {
-    //   html: ''
-    // }
   }
-
-  // componentDidMount() {
-  //   console.log('this.props.data:', this.props.data);
-  //   const {markdownRemark} = this.props.data; // data.markdownRemark holds our post data
-  //   const {html} = markdownRemark;
-  //
-  //   this.setState({
-  //     html: html
-  //   });
-  // }
 
   render() {
     const page = this.props.data.markdownRemark;

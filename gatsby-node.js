@@ -8,8 +8,6 @@
 
 const path = require("path");
 const fetch = require('isomorphic-fetch');
-// var markdown = require( "markdown" ).markdown;
-const crypto = require(`crypto`);
 
 
 exports.createPages = ({ boundActionCreators, graphql }) => {
