@@ -22,7 +22,7 @@ $ npm install
 Run:
 
 ```
-$ gatsby develop
+$ make site-develop
 ```
 
 This command will start a hot-reloading development environment accessible at localhost:8000.
@@ -33,12 +33,12 @@ This command will start a hot-reloading development environment accessible at lo
 This command will build the website for generating static HTML and per-route JavaScript code bundles and the result will be on the public folder.
 
 ```
-$ gatsby build
+$ make site-build
 ```
 Then you can check the generated codes by running:
 
 ```
-$ gatsby serve
+$ make site-serve
 ```
 
 
