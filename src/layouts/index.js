@@ -29,7 +29,7 @@ export default class Template extends React.Component {
 
         </div>
       )
-    } else if (this.props.location.pathname === '/repl') {
+    } else if (this.props.location.pathname === '/repl' || this.props.location.pathname === '/repl/') {
       return (
         <div>
           <Helmet
@@ -50,7 +50,7 @@ export default class Template extends React.Component {
 
         </div>
       )
-    } else if (this.props.location.pathname === '/about') {
+    } else if (this.props.location.pathname === '/about' || this.props.location.pathname === '/about/') {
       return (
         <div>
           <Helmet

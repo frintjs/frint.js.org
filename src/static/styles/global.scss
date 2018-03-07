@@ -27,6 +27,8 @@ nav {
   margin-bottom: 1em;
 }
 
+.gatsby-highlight > pre { padding: 0 !important; }
+
 .main-nav {
   position: fixed;
   width: 100%;
