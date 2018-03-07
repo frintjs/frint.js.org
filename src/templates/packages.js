@@ -1,8 +1,8 @@
 import React from "react";
 import Helmet from "react-helmet"
 
-function PackageTemplate() {
-    const page = this.props.data.markdownRemark;
+function PackageTemplate({ data }) {
+    const page = data.markdownRemark;
 
     return (
       <div>
