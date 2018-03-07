@@ -1,12 +1,7 @@
 import React from "react";
 import Helmet from "react-helmet"
 
-class PackageTemplate extends React.Component {
-  constructor() {
-    super();
-  }
-
-  render() {
+function PackageTemplate() {
     const page = this.props.data.markdownRemark;
 
     return (
@@ -23,7 +18,6 @@ class PackageTemplate extends React.Component {
         />
       </div>
     );
-  }
 }
 
 export default PackageTemplate;
