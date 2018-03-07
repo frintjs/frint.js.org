@@ -13,13 +13,10 @@ class PackageTemplate extends React.Component {
       <div>
         <Helmet>
           <title>{page.frontmatter.title + ' | Frint'}</title>
-          <meta name="description" content={page.excerpt} />
-          <meta name="og:description" content={page.excerpt} />
-          <meta name="twitter:description" content={page.excerpt} />
+          <meta name="description" content="FrintJS - The Modular JavaScript Framework" />
+          <meta name="og:description" content="FrintJS - The Modular JavaScript Framework" />
+          <meta name="twitter:description" content="FrintJS - The Modular JavaScript Framework" />
           <meta name="og:title" content={page.frontmatter.title} />
-          <meta name="og:type" content="article" />
-          <meta name="twitter.label1" content="Reading time" />
-          <meta name="twitter:data1" content={`${page.timeToRead} min read`} />
         </Helmet>
         <div
           dangerouslySetInnerHTML={{__html: page.html}}

@@ -16,10 +16,10 @@ export default class Template extends React.Component {
       return (
         <div>
           <Helmet
-            title="FrintJS - The Modular JavaScript Framework"
+            title="FrintJS Documentation"
             meta={[
-              {name: 'description', content: 'Sample'},
-              {name: 'keywords', content: 'sample, something'},
+              {name: 'description', content: 'FrintJS - The Modular JavaScript Framework'},
+              {name: 'keywords', content: 'frint'},
             ]}
           />
 
@@ -35,8 +35,8 @@ export default class Template extends React.Component {
           <Helmet
             title="REPL | Frint"
             meta={[
-              {name: 'description', content: 'Sample'},
-              {name: 'keywords', content: 'sample, something'},
+              {name: 'description', content: 'FrintJS - The Modular JavaScript Framework'},
+              {name: 'keywords', content: 'frint'},
             ]}
           />
           <div className="page-repl">
@@ -56,8 +56,8 @@ export default class Template extends React.Component {
           <Helmet
             title="About | Frint"
             meta={[
-              {name: 'description', content: 'Sample'},
-              {name: 'keywords', content: 'sample, something'},
+              {name: 'description', content: 'FrintJS - The Modular JavaScript Framework'},
+              {name: 'keywords', content: 'frint'},
             ]}
           />
             <nav className="nav main-nav">
@@ -95,8 +95,8 @@ export default class Template extends React.Component {
           <Helmet
             title="Documentation | Frint"
             meta={[
-              {name: 'description', content: 'Sample'},
-              {name: 'keywords', content: 'sample, something'},
+              {name: 'description', content: 'FrintJS - The Modular JavaScript Framework'},
+              {name: 'keywords', content: 'frint'},
             ]}
           />
 
