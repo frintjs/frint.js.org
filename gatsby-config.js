@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'FrintJs Documentation',
+    title: 'FrintJS Documentation',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
