@@ -1,30 +1,30 @@
-import React from 'react'
-import logo from "../../../static/img/frint-logo-7a7a7a.png"
-import logo1 from "../../../static/img/frint-logo-fff.png"
-import SearchForm from '../SearchForm'
-import Link from "gatsby-link"
+import React from 'react';
+import Link from "gatsby-link";
+import logo from "../../../static/img/frint-logo-7a7a7a.png";
+import logoLight from "../../../static/img/frint-logo-fff.png";
+import SearchForm from '../SearchForm';
 
 const Header = () => (
   <div className="container">
     <div className="nav-left">
-      <Link to="/" className="nav-item brand" activeClassName="is-active">
+      <Link activeClassName="is-active" className="nav-item brand" to="/">
         <img alt="Frint" className="dark" src={logo} />
-        <img alt="Frint" className="light" src={logo1} />
+        <img alt="Frint" className="light" src={logoLight} />
       </Link>
 
-      <Link to="/docs" className="nav-item is-tab" activeClassName="is-active">
+      <Link activeClassName="is-active" className="nav-item is-tab" to="/docs">
         Documentation
       </Link>
 
-      <a href="https://medium.com/frintjs" className="nav-item is-tab">
+      <a className="nav-item is-tab" href="https://medium.com/frintjs">
         Blog
       </a>
 
-      <Link to="/repl" className="nav-item is-tab" activeClassName="is-active">
+      <Link activeClassName="is-active" className="nav-item is-tab" to="/repl">
         REPL
       </Link>
 
-      <Link to="/about" className="nav-item is-tab" activeClassName="is-active">
+      <Link activeClassName="is-active" className="nav-item is-tab" to="/about">
         About
       </Link>
     </div>
@@ -37,4 +37,4 @@ const Header = () => (
   </div>
 );
 
-export default Header
+export default Header;

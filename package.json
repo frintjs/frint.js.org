@@ -16,6 +16,8 @@
     "gatsby-remark-prismjs": "^1.2.15",
     "gatsby-source-filesystem": "^1.5.24",
     "gatsby-transformer-remark": "^1.7.33",
+    "prop-types": "^15.6.1",
+    "react": "^16.2.0",
     "react-helmet": "^5.2.0"
   },
   "repository": {
@@ -32,12 +34,21 @@
   "main": "n/a",
   "homepage": "https://github.com/frintjs/frint.js.org#readme",
   "scripts": {
+    "alex": "alex .",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"src/**/*.js\"",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ./src"
   },
   "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.2.2",
+    "eslint": "^4.18.2",
+    "eslint-config-travix": "^4.0.0",
+    "eslint-plugin-babel": "^4.1.2",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-react": "^7.7.0",
     "prettier": "^1.10.2"
   }
 }

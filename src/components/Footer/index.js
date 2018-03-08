@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const Footer = () => (
   <footer className="footer">
@@ -8,16 +8,16 @@ const Footer = () => (
           Code licensed under <a href="https://github.com/frintjs/frint/blob/master/LICENSE">MIT</a> &copy; <a href="https://github.com/frintjs/frint/graphs/contributors">FrintJS Authors</a> and <a href="https://travix.com">Travix International</a>.
         </p>
         <p>
-          <a className="icon" title="GitHub" href="https://github.com/frintjs/frint">
-            <i className="fa fa-github"></i>
+          <a className="icon" href="https://github.com/frintjs/frint" title="GitHub">
+            <i className="fa fa-github" />
           </a>
 
-          <a className="icon" title="Twitter" href="https://twitter.com/frintjs">
-            <i className="fa fa-twitter"></i>
+          <a className="icon" href="https://twitter.com/frintjs" title="Twitter">
+            <i className="fa fa-twitter" />
           </a>
 
-          <a className="icon" title="Medium" href="https://medium.com/frintjs">
-            <i className="fa fa-medium"></i>
+          <a className="icon" href="https://medium.com/frintjs" title="Medium">
+            <i className="fa fa-medium" />
           </a>
         </p>
       </div>
@@ -25,5 +25,5 @@ const Footer = () => (
   </footer>
 );
 
-export default Footer
+export default Footer;
 

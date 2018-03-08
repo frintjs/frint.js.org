@@ -1,24 +1,33 @@
 import React from "react";
-import Helmet from "react-helmet"
+import Helmet from "react-helmet";
+import PropTypes from 'prop-types';
 
-function PackageTemplate({ data }) {
-    const page = data.markdownRemark;
+const PackageTemplate = ({ data }) => {
+  const page = data.markdownRemark;
 
-    return (
-      <div>
-        <Helmet>
-          <title>{page.frontmatter.title + ' | Frint'}</title>
-          <meta name="description" content="FrintJS - The Modular JavaScript Framework" />
-          <meta name="og:description" content="FrintJS - The Modular JavaScript Framework" />
-          <meta name="twitter:description" content="FrintJS - The Modular JavaScript Framework" />
-          <meta name="og:title" content={page.frontmatter.title} />
-        </Helmet>
-        <div
-          dangerouslySetInnerHTML={{__html: page.html}}
-        />
-      </div>
-    );
+  return (
+    <div>
+      <Helmet>
+        <title>{ `${page.frontmatter.title} | Frint` }</title>
+        <meta content="FrintJS - The Modular JavaScript Framework" name="description" />
+        <meta content="FrintJS - The Modular JavaScript Framework" name="og:description" />
+        <meta content="FrintJS - The Modular JavaScript Framework" name="twitter:description" />
+        <meta content={page.frontmatter.title} name="og:title" />
+      </Helmet>
+      <div
+        dangerouslySetInnerHTML={{ __html: page.html }}
+      />
+    </div>
+  );
 }
+
+PackageTemplate.propTypes = {
+  data: PropTypes.object,
+};
+
+PackageTemplate.defaultProps = {
+  data: {},
+};
 
 export default PackageTemplate;
 
