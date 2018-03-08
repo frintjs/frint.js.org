@@ -12,9 +12,11 @@ import Footer from "../components/Footer";
 
 export default class Template extends React.Component {
   render() {
-    const pathName = (this.props.location.pathname.length > 1 &&
+    // Remove trailing / from the pathname except when it is the root path
+    const pathName = (this.props.location.pathname !== '/' &&
       this.props.location.pathname[this.props.location.pathname.length - 1] === '/')
       ? this.props.location.pathname.slice(0, -1) : this.props.location.pathname;
+
     if (pathName === '/') {
       return (
         <div>

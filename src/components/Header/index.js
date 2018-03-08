@@ -1,15 +1,13 @@
 import React from 'react';
 import Link from "gatsby-link";
-import logo from "../../../static/img/frint-logo-7a7a7a.png";
-import logoLight from "../../../static/img/frint-logo-fff.png";
 import SearchForm from '../SearchForm';
 
 const Header = () => (
   <div className="container">
     <div className="nav-left">
       <Link activeClassName="is-active" className="nav-item brand" to="/">
-        <img alt="Frint" className="dark" src={logo} />
-        <img alt="Frint" className="light" src={logoLight} />
+        <img alt="Frint" className="dark" src="/img/frint-logo-7a7a7a.png" />
+        <img alt="Frint" className="light" src="/img/frint-logo-fff.png" />
       </Link>
 
       <Link activeClassName="is-active" className="nav-item is-tab" to="/docs">
