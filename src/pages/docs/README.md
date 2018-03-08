@@ -1,7 +1,7 @@
 ---
 title: Documentation
 importContentFromRoot: README.md
-path: "/docs/"
+path: "/docs"
 ---
 
 # Documentation
