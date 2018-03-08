@@ -6,33 +6,34 @@ const sidebars = require('../../static/data/sidebar.json');
 
 const SideBar = () => {
   const renderMenuItems = (menuItems) => {
-    if (menuItems.length > 0) {
-      return menuItems.map(menuItem => (
-        <li key={menuItem.id}>
-          <Link activeClassName="is-active" to={menuItem.to}>{menuItem.label}</Link>
-        </li>
-      ));
+    if (menuItems.length === 0) {
+      return [];
     }
-    return [];
+    return menuItems.map(menuItem => (
+      <li key={menuItem.id}>
+        <Link activeClassName="is-active" to={menuItem.to}>{ menuItem.label}</Link>
+      </li>
+    ));
   };
 
   const renderSidebars = (sidebarsData) => {
-    if (sidebarsData.length > 0) {
-      return sidebarsData.map((sidebar) => {
-        const renderedMenuItems = renderMenuItems(sidebar.menu_items);
-        return (
-          <div className="menu-block" key={sidebar.menu_label}>
-            <p className="menu-label">
-              {sidebar.menu_label}
-            </p>
-            <ul className="menu-list">
-              { renderedMenuItems }
-            </ul>
-          </div>
-        );
-      });
+    if (sidebarsData.length === 0) {
+      return [];
     }
-    return [];
+
+    return sidebarsData.map((sidebar) => {
+      const renderedMenuItems = renderMenuItems(sidebar.menu_items);
+      return (
+        <div className="menu-block" key={sidebar.menu_label}>
+          <p className="menu-label">
+            {sidebar.menu_label}
+          </p>
+          <ul className="menu-list">
+            { renderedMenuItems }
+          </ul>
+        </div>
+      );
+    });
   };
 
   const renderedSidebars = renderSidebars(sidebars);
