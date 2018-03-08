@@ -1,4 +1,9 @@
+GITHUB_API_TOKEN := ""
+
 # Site
+
+site-fetch-contributors:
+	GITHUB_API_TOKEN=$(GITHUB_API_TOKEN) node ./src/static/js/fetch-contributors.js
 
 site-develop:
 	node ./node_modules/gatsby/dist/bin/gatsby.js develop
