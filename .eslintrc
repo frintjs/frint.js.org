@@ -1,0 +1,6 @@
+{
+  "extends": [
+    "travix/base",
+    "travix/react"
+  ]
+}

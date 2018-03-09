@@ -5,6 +5,11 @@ yarn.lock
 _site
 package-lock.json
 
+.cache/
+# Build directory
+public/
+yarn-error.log
+
 # Ignore vim temporary files
 *~
 *.swp

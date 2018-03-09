@@ -10,16 +10,7 @@ Issues can be submitted to the monorepo: https://github.com/frintjs/frint/issues
 
 ## Installation
 
-Clone the repository next to the monorepo directory:
-
-```
-├── frint/
-└── frint.js.org/
-```
-
-This setup is only needed for accessing the packages' README files.
-
-Now install the dependencies:
+Clone the repository and install the dependencies:
 
 ```
 $ cd frint.js.org
@@ -31,14 +22,25 @@ $ npm install
 Run:
 
 ```
+$ make site-develop
+```
+
+This command will start a hot-reloading development environment accessible at localhost:8000.
+
+
+### Building and testing the site
+
+This command will build the website for generating static HTML and per-route JavaScript code bundles and the result will be on the public folder.
+
+```
+$ make site-build
+```
+Then you can check the generated codes by running:
+
+```
 $ make site-serve
 ```
 
-Once the local server is up and running, you can run a separate watcher to refresh the site as you work on the documentation:
-
-```
-$ make site-watch
-```
 
 ### Publishing the site
 
