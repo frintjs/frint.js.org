@@ -19,7 +19,7 @@ const PackageTemplate = ({ data }) => {
       />
     </div>
   );
-}
+};
 
 PackageTemplate.propTypes = {
   data: PropTypes.object,
