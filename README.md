@@ -6,8 +6,6 @@
 
 For documentation, visit [https://frint.js.org](https://frint.js.org).
 
-Issues can be submitted to the monorepo: https://github.com/frintjs/frint/issues.
-
 ## Installation
 
 Clone the repository and install the dependencies:
