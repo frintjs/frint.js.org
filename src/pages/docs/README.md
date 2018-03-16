@@ -1,6 +1,6 @@
 ---
 title: Documentation
-importContentFromRoot: README.md
+importFromGitHub: "frintjs/frint/master/README.md"
 path: "/docs"
 ---
 

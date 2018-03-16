@@ -1,5 +1,5 @@
 ---
 title: Maintainers guide
-importContentFromRoot: MAINTAINERS.md
+importFromGitHub: "frintjs/frint/master/MAINTAINERS.md"
 path: "/docs/contributing/maintainers"
 ---
