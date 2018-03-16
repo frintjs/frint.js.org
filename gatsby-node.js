@@ -47,22 +47,28 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
 
 // Create slugs for files.
 exports.onCreateNode = ({ node }) => {
-
   if (node.internal.type === 'MarkdownRemark') {
     if (node.frontmatter.importContentFromPackage) {
       const url = `https://raw.githubusercontent.com/frintjs/frint/master/packages/${node.frontmatter.importContentFromPackage}/README.md`;
       fetch(url)
         .then(data => data.text())
-        .then(textData => {
+        .then((textData) => {
           node.internal.content = textData;
-        })
+        });
     } else if (node.frontmatter.importContentFromRoot) {
       const url = `https://raw.githubusercontent.com/frintjs/frint/master/${node.frontmatter.importContentFromRoot}`;
       fetch(url)
         .then(data => data.text())
-        .then(textData => {
+        .then((textData) => {
           node.internal.content = textData;
-        })
+        });
+    } else if (node.frontmatter.importContentFromUrl) {
+      const url = node.frontmatter.importContentFromUrl;
+      fetch(url)
+        .then(data => data.text())
+        .then((textData) => {
+          node.internal.content = textData;
+        });
     }
   }
 }

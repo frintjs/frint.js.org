@@ -8,156 +8,164 @@
   },
   { "menu_label": "Guides",
     "menu_items": [{
-      "id": "guides_1",
+      "id": "guides_apps",
       "label": "Apps",
       "to": "/guides/apps"
     },{
-      "id": "guides_2",
+      "id": "guides_providers",
       "label": "Providers",
       "to": "/guides/providers"
     },{
-      "id": "guides_3",
+      "id": "guides_components",
       "label": "Components",
       "to": "/guides/components"
     },{
-      "id": "guides_4",
+      "id": "guides_observables",
       "label": "Observables",
       "to": "/guides/observables"
     },{
-      "id": "guides_5",
+      "id": "guides_hoc",
       "label": "Higher-Order Components",
       "to": "/guides/higher-order-components"
     },{
-      "id": "guides_6",
+      "id": "guides_regions",
       "label": "Regions",
       "to": "/guides/regions"
     }]
   },
   { "menu_label": "How TOs",
     "menu_items": [{
-      "id": "how_tos_1",
+      "id": "how_tos_state_management",
       "label": "State management",
       "to": "/guides/state-management"
     },{
-      "id": "how_tos_2",
+      "id": "how_tos_routing",
       "label": "Routing",
       "to": "/guides/routing"
     }]
   },
   { "menu_label": "Advanced",
     "menu_items": [{
-      "id": "advanced_1",
+      "id": "advanced_code_splitting",
       "label": "Code splitting",
       "to": "/guides/code-splitting"
     },{
-      "id": "advanced_2",
+      "id": "advanced_async_loading",
       "label": "Async loading",
       "to": "/guides/async-loading"
     }]
   },
   { "menu_label": "Packages",
     "menu_items": [{
-      "id": "package_1",
+      "id": "package_frint",
       "label": "frint",
       "to": "/docs/packages/frint"
     },{
-      "id": "package_2",
+      "id": "package_frint_store",
       "label": "frint-store",
       "to": "/docs/packages/frint-store"
     },{
-      "id": "package_3",
+      "id": "package_frint_data",
       "label": "frint-data",
       "to": "/docs/packages/frint-data"
     },{
-      "id": "package_4",
+      "id": "package_frint_react",
       "label": "frint-react",
       "to": "/docs/packages/frint-react"
     },{
-      "id": "package_5",
+      "id": "package_frint_react_server",
       "label": "frint-react-server",
       "to": "/docs/packages/frint-react-server"
     },{
-      "id": "package_6",
+      "id": "package_frint_router",
       "label": "frint-router",
       "to": "/docs/packages/frint-router"
     },{
-      "id": "package_7",
+      "id": "package_frint_router_react",
       "label": "frint-router-react",
       "to": "/docs/packages/frint-router-react"
     },{
-      "id": "package_8",
+      "id": "package_frint_cli",
       "label": "frint-cli",
       "to": "/docs/packages/frint-cli"
+    },{
+      "id": "package_frint_props",
+      "label": "frint-props",
+      "to": "/docs/packages/frint-props"
+    },{
+      "id": "package_frint_props_react",
+      "label": "frint-props-react",
+      "to": "/docs/packages/frint-props-react"
     }]
   },
   { "menu_label": "Internal packages",
     "menu_items": [{
-      "id": "internal_package_1",
+      "id": "internal_package_frint_config",
       "label": "frint-config",
       "to": "/docs/packages/frint-config"
     },{
-      "id": "internal_package_2",
+      "id": "internal_package_frint_test_utils",
       "label": "frint-test-utils",
       "to": "/docs/packages/frint-test-utils"
     },{
-      "id": "internal_package_3",
+      "id": "internal_package_frint_compat",
       "label": "frint-compat",
       "to": "/docs/packages/frint-compat"
     }]
   },
   { "menu_label": "Developer packages",
     "menu_items": [{
-      "id": "developer_package_1",
+      "id": "developer_package_frint_componrnt_utils",
       "label": "frint-component-utils",
       "to": "/docs/packages/frint-component-utils"
     },{
-      "id": "developer_package_2",
+      "id": "developer_package_frint_component_handlers",
       "label": "frint-component-handlers",
       "to": "/docs/packages/frint-component-handlers"
     },{
-      "id": "developer_package_3",
+      "id": "developer_package_frint_router_component_handlers",
       "label": "frint-router-component-handlers",
       "to": "/docs/packages/frint-router-component-handlers"
     }]
   },
   { "menu_label": "Migration",
     "menu_items": [{
-      "id": "migration_1",
+      "id": "migration_v1",
       "label": "Migrating to v1.x",
       "to": "/docs/migration/v1"
     },{
-      "id": "migration_2",
+      "id": "migration_v2",
       "label": "Migrating to v2.x",
       "to": "/docs/migration/v2"
     },{
-      "id": "migration_3",
+      "id": "migration_v3",
       "label": "Migrating to v3.x",
       "to": "/docs/migration/v3"
     },{
-      "id": "migration_4",
+      "id": "migration_v4",
       "label": "Migrating to v4.x",
       "to": "/docs/migration/v4"
     },{
-      "id": "migration_5",
+      "id": "migration_v5",
       "label": "Migrating to v5.x",
       "to": "/docs/migration/v5"
     }]
   },
   { "menu_label": "Project",
     "menu_items": [{
-      "id": "project_1",
+      "id": "project_faq",
       "label": "FAQ",
       "to": "/docs/faq"
     },{
-      "id": "project_2",
+      "id": "project_changelog",
       "label": "Changelog",
       "to": "/docs/changelog"
     },{
-      "id": "project_3",
+      "id": "project_contribution_guide",
       "label": "Contribution guide",
       "to": "/docs/contributing/guide"
     },{
-      "id": "project_4",
+      "id": "project_maintainers_guide",
       "label": "Maintainers guide",
       "to": "/docs/contributing/maintainers"
     }]
