@@ -1,5 +1,5 @@
 ---
 title: Changelog
-importContentFromRoot: CHANGELOG.md
+importFromGitHub: "frintjs/frint/master/CHANGELOG.md"
 path: "/docs/changelog"
 ---

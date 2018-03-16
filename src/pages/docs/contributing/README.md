@@ -1,5 +1,5 @@
 ---
 title: Contribution guide
-importContentFromRoot: CONTRIBUTING.md
+importFromGitHub: "frintjs/frint/master/CONTRIBUTING.md"
 path: "/docs/contributing/guide"
 ---
