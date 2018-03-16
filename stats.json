@@ -1,0 +1,218 @@
+{
+  "assetsByChunkName": {
+    "path---docs-packages-frint-cli": [
+      "path---docs-packages-frint-cli-281878b0f890d1f557d8.js",
+      "path---docs-packages-frint-cli-281878b0f890d1f557d8.js.map"
+    ],
+    "path---docs-packages-frint-props": [
+      "path---docs-packages-frint-props-b22ffc01199dbfaf0a92.js",
+      "path---docs-packages-frint-props-b22ffc01199dbfaf0a92.js.map"
+    ],
+    "path---docs-migration-v-1": [
+      "path---docs-migration-v-1-2a6e2a4cd1f638847b63.js",
+      "path---docs-migration-v-1-2a6e2a4cd1f638847b63.js.map"
+    ],
+    "component---src-pages-index-js": [
+      "component---src-pages-index-js-6ec044e1e5f2e5977fd2.js",
+      "component---src-pages-index-js-6ec044e1e5f2e5977fd2.js.map"
+    ],
+    "path---docs-packages-frint-props-react": [
+      "path---docs-packages-frint-props-react-f88d48c9c9ff756364d4.js",
+      "path---docs-packages-frint-props-react-f88d48c9c9ff756364d4.js.map"
+    ],
+    "path---guides-code-splitting": [
+      "path---guides-code-splitting-33cf07f69245c8326d77.js",
+      "path---guides-code-splitting-33cf07f69245c8326d77.js.map"
+    ],
+    "path---guides-async-loading": [
+      "path---guides-async-loading-e3042d9362f73d6b8aea.js",
+      "path---guides-async-loading-e3042d9362f73d6b8aea.js.map"
+    ],
+    "path---guides-routing": [
+      "path---guides-routing-f2465775caebda828d33.js",
+      "path---guides-routing-f2465775caebda828d33.js.map"
+    ],
+    "path---docs-packages-frint-compat": [
+      "path---docs-packages-frint-compat-2e7b4f6b0b2a4c8937b1.js",
+      "path---docs-packages-frint-compat-2e7b4f6b0b2a4c8937b1.js.map"
+    ],
+    "path---": [
+      "path----557518bd178906f8d58a.js",
+      "path----557518bd178906f8d58a.js.map"
+    ],
+    "path---guides-observables": [
+      "path---guides-observables-4b523924984a130df70e.js",
+      "path---guides-observables-4b523924984a130df70e.js.map"
+    ],
+    "path---docs-packages-frint-react-server": [
+      "path---docs-packages-frint-react-server-4328484b46c848839d79.js",
+      "path---docs-packages-frint-react-server-4328484b46c848839d79.js.map"
+    ],
+    "path---docs-packages-frint-react": [
+      "path---docs-packages-frint-react-7a9db4fb72cc32ed9450.js",
+      "path---docs-packages-frint-react-7a9db4fb72cc32ed9450.js.map"
+    ],
+    "path---guides-higher-order-components": [
+      "path---guides-higher-order-components-73e03ebe34415eb054e6.js",
+      "path---guides-higher-order-components-73e03ebe34415eb054e6.js.map"
+    ],
+    "path---docs-packages-frint-model": [
+      "path---docs-packages-frint-model-28a70373fdeef7d92d8f.js",
+      "path---docs-packages-frint-model-28a70373fdeef7d92d8f.js.map"
+    ],
+    "path---docs-packages-frint-config": [
+      "path---docs-packages-frint-config-7ecc04cefe6043ffad4c.js",
+      "path---docs-packages-frint-config-7ecc04cefe6043ffad4c.js.map"
+    ],
+    "component---src-layouts-index-js": [
+      "component---src-layouts-index-js-33e8ae9b448f5b5f8a0a.js",
+      "component---src-layouts-index-js-33e8ae9b448f5b5f8a0a.js.map"
+    ],
+    "path---docs-migration-v-3": [
+      "path---docs-migration-v-3-b8195613050422570dfb.js",
+      "path---docs-migration-v-3-b8195613050422570dfb.js.map"
+    ],
+    "path---guides": [
+      "path---guides-1e770dd33443051f96eb.js",
+      "path---guides-1e770dd33443051f96eb.js.map"
+    ],
+    "path---docs-packages-frint-store": [
+      "path---docs-packages-frint-store-5afd4a929f82d0a78963.js",
+      "path---docs-packages-frint-store-5afd4a929f82d0a78963.js.map"
+    ],
+    "path---docs-contributing-maintainers": [
+      "path---docs-contributing-maintainers-f474db68ce9993202664.js",
+      "path---docs-contributing-maintainers-f474db68ce9993202664.js.map"
+    ],
+    "path---docs-packages-frint-data": [
+      "path---docs-packages-frint-data-a170668d490e86926b13.js",
+      "path---docs-packages-frint-data-a170668d490e86926b13.js.map"
+    ],
+    "path---docs": [
+      "path---docs-21829f1a60aa538d52c6.js",
+      "path---docs-21829f1a60aa538d52c6.js.map"
+    ],
+    "path---docs-migration-v-5": [
+      "path---docs-migration-v-5-c89325625710dfb815ae.js",
+      "path---docs-migration-v-5-c89325625710dfb815ae.js.map"
+    ],
+    "path---guides-state-management": [
+      "path---guides-state-management-8375c1f86fd4daeb40df.js",
+      "path---guides-state-management-8375c1f86fd4daeb40df.js.map"
+    ],
+    "path---index": [
+      "path---index-a0e39f21c11f6a62c5ab.js",
+      "path---index-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---guides-regions": [
+      "path---guides-regions-6fed2285d55657950057.js",
+      "path---guides-regions-6fed2285d55657950057.js.map"
+    ],
+    "path---guides-providers": [
+      "path---guides-providers-a4b787ac8990d5a4e264.js",
+      "path---guides-providers-a4b787ac8990d5a4e264.js.map"
+    ],
+    "path---guides-hello-world": [
+      "path---guides-hello-world-494d4d1540f9da24d2c9.js",
+      "path---guides-hello-world-494d4d1540f9da24d2c9.js.map"
+    ],
+    "path---docs-faq": [
+      "path---docs-faq-fa0c4b8644231163fa39.js",
+      "path---docs-faq-fa0c4b8644231163fa39.js.map"
+    ],
+    "component---src-pages-404-js": [
+      "component---src-pages-404-js-4503918ea3a16cfcdb75.js",
+      "component---src-pages-404-js-4503918ea3a16cfcdb75.js.map"
+    ],
+    "commons": [
+      "commons-b9ba3cd48d4725f0fa8b.js",
+      "commons-b9ba3cd48d4725f0fa8b.js.map"
+    ],
+    "component---src-pages-repl-js": [
+      "component---src-pages-repl-js-a42f5394e6b169a66095.js",
+      "component---src-pages-repl-js-a42f5394e6b169a66095.js.map"
+    ],
+    "path---docs-migration-v-2": [
+      "path---docs-migration-v-2-14c9de438e2ecadc3796.js",
+      "path---docs-migration-v-2-14c9de438e2ecadc3796.js.map"
+    ],
+    "path---404-html": [
+      "path---404-html-a0e39f21c11f6a62c5ab.js",
+      "path---404-html-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---docs-contributing-guide": [
+      "path---docs-contributing-guide-77cb79e00c214fba0008.js",
+      "path---docs-contributing-guide-77cb79e00c214fba0008.js.map"
+    ],
+    "path---docs-packages-frint-router-react": [
+      "path---docs-packages-frint-router-react-538099f6790e01a0367d.js",
+      "path---docs-packages-frint-router-react-538099f6790e01a0367d.js.map"
+    ],
+    "path---docs-packages-frint-router": [
+      "path---docs-packages-frint-router-6dbee1e75beb5963afd3.js",
+      "path---docs-packages-frint-router-6dbee1e75beb5963afd3.js.map"
+    ],
+    "path---repl": [
+      "path---repl-a0e39f21c11f6a62c5ab.js",
+      "path---repl-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---docs-packages-frint-component-handlers": [
+      "path---docs-packages-frint-component-handlers-d5308b2da8bd84c2ac45.js",
+      "path---docs-packages-frint-component-handlers-d5308b2da8bd84c2ac45.js.map"
+    ],
+    "app": [
+      "app-bd11f6760b6bb02f6c53.js",
+      "build-js-styles.css",
+      "app-bd11f6760b6bb02f6c53.js.map",
+      "build-js-styles.css.map"
+    ],
+    "path---docs-migration-v-4": [
+      "path---docs-migration-v-4-5096faf3f3711091c3b8.js",
+      "path---docs-migration-v-4-5096faf3f3711091c3b8.js.map"
+    ],
+    "path---guides-components": [
+      "path---guides-components-850befdd1f47f74b8f30.js",
+      "path---guides-components-850befdd1f47f74b8f30.js.map"
+    ],
+    "path---docs-packages-frint-component-utils": [
+      "path---docs-packages-frint-component-utils-7395bb1fbf45bc3a6deb.js",
+      "path---docs-packages-frint-component-utils-7395bb1fbf45bc3a6deb.js.map"
+    ],
+    "component---src-templates-packages-js": [
+      "component---src-templates-packages-js-49806ef43addf4520a38.js",
+      "component---src-templates-packages-js-49806ef43addf4520a38.js.map"
+    ],
+    "path---docs-packages-frint-test-utils": [
+      "path---docs-packages-frint-test-utils-3643e70d37a833c18019.js",
+      "path---docs-packages-frint-test-utils-3643e70d37a833c18019.js.map"
+    ],
+    "path---docs-changelog": [
+      "path---docs-changelog-e9e884d67e78bf6b3772.js",
+      "path---docs-changelog-e9e884d67e78bf6b3772.js.map"
+    ],
+    "path---guides-apps": [
+      "path---guides-apps-760f3f491982dcfa7fe4.js",
+      "path---guides-apps-760f3f491982dcfa7fe4.js.map"
+    ],
+    "path---404": [
+      "path---404-a0e39f21c11f6a62c5ab.js",
+      "path---404-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---docs-packages-frint-router-component-handlers": [
+      "path---docs-packages-frint-router-component-handlers-e41e55ad2aeb21bb3aef.js",
+      "path---docs-packages-frint-router-component-handlers-e41e55ad2aeb21bb3aef.js.map"
+    ],
+    "component---src-pages-about-js": [
+      "component---src-pages-about-js-36d2ffae29c27a2a87fa.js",
+      "component---src-pages-about-js-36d2ffae29c27a2a87fa.js.map"
+    ],
+    "path---docs-packages-frint": [
+      "path---docs-packages-frint-02718ccd022c87d148f2.js",
+      "path---docs-packages-frint-02718ccd022c87d148f2.js.map"
+    ],
+    "path---about": [
+      "path---about-a0e39f21c11f6a62c5ab.js",
+      "path---about-a0e39f21c11f6a62c5ab.js.map"
+    ]
+  }
+}
